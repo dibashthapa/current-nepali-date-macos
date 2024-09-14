@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F4895F2C958B1F00987D86 /* Nepali_CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */; };
+		04F489612C958B1F00987D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F489602C958B1F00987D86 /* ContentView.swift */; };
+		04F489632C958B2400987D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F489622C958B2400987D86 /* Assets.xcassets */; };
+		04F489662C958B2400987D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F489652C958B2400987D86 /* Preview Assets.xcassets */; };
+		04F489712C958B2400987D86 /* Nepali_CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F489702C958B2400987D86 /* Nepali_CalendarTests.swift */; };
+		04F4897B2C958B2400987D86 /* Nepali_CalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4897A2C958B2400987D86 /* Nepali_CalendarUITests.swift */; };
+		04F4897D2C958B2400987D86 /* Nepali_CalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4897C2C958B2400987D86 /* Nepali_CalendarUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F4896D2C958B2400987D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F489532C958B1F00987D86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F4895A2C958B1F00987D86;
+			remoteInfo = "Nepali Calendar";
+		};
+		04F489772C958B2400987D86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F489532C958B1F00987D86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F4895A2C958B1F00987D86;
+			remoteInfo = "Nepali Calendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F4895B2C958B1F00987D86 /* Nepali Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nepali_CalendarApp.swift; sourceTree = "<group>"; };
+		04F489602C958B1F00987D86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04F489622C958B2400987D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F489652C958B2400987D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F489672C958B2400987D86 /* Nepali_Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nepali_Calendar.entitlements; sourceTree = "<group>"; };
+		04F4896C2C958B2400987D86 /* Nepali CalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nepali CalendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F489702C958B2400987D86 /* Nepali_CalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nepali_CalendarTests.swift; sourceTree = "<group>"; };
+		04F489762C958B2400987D86 /* Nepali CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nepali CalendarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F4897A2C958B2400987D86 /* Nepali_CalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nepali_CalendarUITests.swift; sourceTree = "<group>"; };
+		04F4897C2C958B2400987D86 /* Nepali_CalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nepali_CalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F489582C958B1F00987D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F489692C958B2400987D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F489732C958B2400987D86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F489522C958B1F00987D86 = {
+			isa = PBXGroup;
+			children = (
+				04F4895D2C958B1F00987D86 /* Nepali Calendar */,
+				04F4896F2C958B2400987D86 /* Nepali CalendarTests */,
+				04F489792C958B2400987D86 /* Nepali CalendarUITests */,
+				04F4895C2C958B1F00987D86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F4895C2C958B1F00987D86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F4895B2C958B1F00987D86 /* Nepali Calendar.app */,
+				04F4896C2C958B2400987D86 /* Nepali CalendarTests.xctest */,
+				04F489762C958B2400987D86 /* Nepali CalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F4895D2C958B1F00987D86 /* Nepali Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */,
+				04F489602C958B1F00987D86 /* ContentView.swift */,
+				04F489622C958B2400987D86 /* Assets.xcassets */,
+				04F489672C958B2400987D86 /* Nepali_Calendar.entitlements */,
+				04F489642C958B2400987D86 /* Preview Content */,
+			);
+			path = "Nepali Calendar";
+			sourceTree = "<group>";
+		};
+		04F489642C958B2400987D86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04F489652C958B2400987D86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04F4896F2C958B2400987D86 /* Nepali CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F489702C958B2400987D86 /* Nepali_CalendarTests.swift */,
+			);
+			path = "Nepali CalendarTests";
+			sourceTree = "<group>";
+		};
+		04F489792C958B2400987D86 /* Nepali CalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F4897A2C958B2400987D86 /* Nepali_CalendarUITests.swift */,
+				04F4897C2C958B2400987D86 /* Nepali_CalendarUITestsLaunchTests.swift */,
+			);
+			path = "Nepali CalendarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F4895A2C958B1F00987D86 /* Nepali Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F489802C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali Calendar" */;
+			buildPhases = (
+				04F489572C958B1F00987D86 /* Sources */,
+				04F489582C958B1F00987D86 /* Frameworks */,
+				04F489592C958B1F00987D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nepali Calendar";
+			productName = "Nepali Calendar";
+			productReference = 04F4895B2C958B1F00987D86 /* Nepali Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F4896B2C958B2400987D86 /* Nepali CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F489832C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali CalendarTests" */;
+			buildPhases = (
+				04F489682C958B2400987D86 /* Sources */,
+				04F489692C958B2400987D86 /* Frameworks */,
+				04F4896A2C958B2400987D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F4896E2C958B2400987D86 /* PBXTargetDependency */,
+			);
+			name = "Nepali CalendarTests";
+			productName = "Nepali CalendarTests";
+			productReference = 04F4896C2C958B2400987D86 /* Nepali CalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F489752C958B2400987D86 /* Nepali CalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F489862C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali CalendarUITests" */;
+			buildPhases = (
+				04F489722C958B2400987D86 /* Sources */,
+				04F489732C958B2400987D86 /* Frameworks */,
+				04F489742C958B2400987D86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F489782C958B2400987D86 /* PBXTargetDependency */,
+			);
+			name = "Nepali CalendarUITests";
+			productName = "Nepali CalendarUITests";
+			productReference = 04F489762C958B2400987D86 /* Nepali CalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F489532C958B1F00987D86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					04F4895A2C958B1F00987D86 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					04F4896B2C958B2400987D86 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 04F4895A2C958B1F00987D86;
+					};
+					04F489752C958B2400987D86 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 04F4895A2C958B1F00987D86;
+					};
+				};
+			};
+			buildConfigurationList = 04F489562C958B1F00987D86 /* Build configuration list for PBXProject "Nepali Calendar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F489522C958B1F00987D86;
+			productRefGroup = 04F4895C2C958B1F00987D86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F4895A2C958B1F00987D86 /* Nepali Calendar */,
+				04F4896B2C958B2400987D86 /* Nepali CalendarTests */,
+				04F489752C958B2400987D86 /* Nepali CalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F489592C958B1F00987D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F489662C958B2400987D86 /* Preview Assets.xcassets in Resources */,
+				04F489632C958B2400987D86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F4896A2C958B2400987D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F489742C958B2400987D86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F489572C958B1F00987D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F489612C958B1F00987D86 /* ContentView.swift in Sources */,
+				04F4895F2C958B1F00987D86 /* Nepali_CalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F489682C958B2400987D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F489712C958B2400987D86 /* Nepali_CalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F489722C958B2400987D86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F4897B2C958B2400987D86 /* Nepali_CalendarUITests.swift in Sources */,
+				04F4897D2C958B2400987D86 /* Nepali_CalendarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F4896E2C958B2400987D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F4895A2C958B1F00987D86 /* Nepali Calendar */;
+			targetProxy = 04F4896D2C958B2400987D86 /* PBXContainerItemProxy */;
+		};
+		04F489782C958B2400987D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F4895A2C958B1F00987D86 /* Nepali Calendar */;
+			targetProxy = 04F489772C958B2400987D86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04F4897E2C958B2400987D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F4897F2C958B2400987D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04F489812C958B2400987D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nepali Calendar/Nepali_Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nepali Calendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04F489822C958B2400987D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Nepali Calendar/Nepali_Calendar.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nepali Calendar/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04F489842C958B2400987D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nepali Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nepali Calendar";
+			};
+			name = Debug;
+		};
+		04F489852C958B2400987D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-CalendarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nepali Calendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nepali Calendar";
+			};
+			name = Release;
+		};
+		04F489872C958B2400987D86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nepali Calendar";
+			};
+			name = Debug;
+		};
+		04F489882C958B2400987D86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dibash.Nepali-CalendarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Nepali Calendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F489562C958B1F00987D86 /* Build configuration list for PBXProject "Nepali Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F4897E2C958B2400987D86 /* Debug */,
+				04F4897F2C958B2400987D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F489802C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F489812C958B2400987D86 /* Debug */,
+				04F489822C958B2400987D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F489832C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F489842C958B2400987D86 /* Debug */,
+				04F489852C958B2400987D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F489862C958B2400987D86 /* Build configuration list for PBXNativeTarget "Nepali CalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F489872C958B2400987D86 /* Debug */,
+				04F489882C958B2400987D86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F489532C958B1F00987D86 /* Project object */;
+}
