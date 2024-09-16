@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		04F4895F2C958B1F00987D86 /* Nepali_CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */; };
-		04F489612C958B1F00987D86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F489602C958B1F00987D86 /* ContentView.swift */; };
 		04F489632C958B2400987D86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F489622C958B2400987D86 /* Assets.xcassets */; };
 		04F489662C958B2400987D86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F489652C958B2400987D86 /* Preview Assets.xcassets */; };
 		04F489712C958B2400987D86 /* Nepali_CalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F489702C958B2400987D86 /* Nepali_CalendarTests.swift */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		04F4895B2C958B1F00987D86 /* Nepali Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nepali Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nepali_CalendarApp.swift; sourceTree = "<group>"; };
-		04F489602C958B1F00987D86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04F489622C958B2400987D86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F489652C958B2400987D86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		04F489672C958B2400987D86 /* Nepali_Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nepali_Calendar.entitlements; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				04F4895E2C958B1F00987D86 /* Nepali_CalendarApp.swift */,
-				04F489602C958B1F00987D86 /* ContentView.swift */,
 				04F489622C958B2400987D86 /* Assets.xcassets */,
 				04F489672C958B2400987D86 /* Nepali_Calendar.entitlements */,
 				04F489642C958B2400987D86 /* Preview Content */,
@@ -259,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F489612C958B1F00987D86 /* ContentView.swift in Sources */,
 				04F4895F2C958B1F00987D86 /* Nepali_CalendarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +423,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nepali Calendar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nepali Date";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +450,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Nepali Calendar/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nepali Date";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
