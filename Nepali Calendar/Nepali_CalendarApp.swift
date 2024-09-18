@@ -238,28 +238,32 @@ struct NepaliCalendar {
 }
 
 
-
-
+class DateStore: ObservableObject {
+    @Published var currentDate = Date()
+    
+    init() {
+        Timer.scheduledTimer(withTimeInterval: 3600.0, repeats: true) {_ in
+            self.currentDate = Date()
+        }
+    }
+}
 
 @main
 struct Nepali_CalendarApp: App {
-    @State private var currentDate = Date()
-    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-    
- 
-    
+    @StateObject private var dateStore = DateStore()
     var formattedNepaliDate: String {
         let calendar = Calendar.current
-        let components = calendar.dateComponents([.year, .month, .day], from: currentDate)
+        let components = calendar.dateComponents([.year, .month, .day], from: dateStore.currentDate)
         let nepaliDate = NepaliCalendar.engToNep(yy: components.year!, mm: components.month!, dd: components.day!)
-        return "\(nepaliDate.day) \(nepaliDate.date) \(nepaliDate.nmonth), \(nepaliDate.year)"
+        return "\(nepaliDate.date) \(nepaliDate.nmonth)"
     }
+    
+   
 
     var body: some Scene {
         MenuBarExtra("\(formattedNepaliDate)") {
-          
         }
-      
-       
     }
+
+   
 }
